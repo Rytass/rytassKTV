@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8' />
+    <title>Cloud Code Demo - 1 - Hello World</title>
+  </head>
+  <body>
+  </body>
+  <script src='https://www.parsecdn.com/js/parse-1.2.18.min.js'></script>
+  <script>
+    Parse.initialize("eqWry4mBRUHbaOhKQcHRlwjXLo65DRSBFqy1nLvr",
+      "ijdDZendlakcU28HzmgAqgtvxeHx5jJQCS2ehskJ");
+    Parse.Cloud.run('hello', {}, {
+      success: function(result) {
+        alert(result);
+      // result is 'Hello world!'
+    },
+    error: function(error) {
+    
+    }
+  });
+  </script>
+</html>
