@@ -1,0 +1,14 @@
+{
+  "global": {
+    "parseVersion": "1.4.2"
+  },
+  "applications": {
+    "_default": {
+      "link": "rytassKTV"
+    },
+    "rytassKTV": {
+      "applicationId": "eqWry4mBRUHbaOhKQcHRlwjXLo65DRSBFqy1nLvr",
+      "masterKey": "Rq7RF6PZXpKdowXaaQOcS59iCk2cNBUCnrMEjEfo"
+    }
+  }
+}
